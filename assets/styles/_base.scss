@@ -1,0 +1,103 @@
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: $font_size_p;
+	color: black;
+	background-color:white;
+	overflow:visible;
+}
+h1 {
+	font-size: $font_size_h1;
+	line-height: $line_height_h1;
+	margin-bottom: $margin_bottom;
+	font-weight: $font_weight_h1;
+	word-break: break-word;
+}
+
+h2 {
+	font-size: $font_size_h2;
+	line-height: $line_height_h2;
+	margin-bottom: $margin_bottom_h2;
+	font-weight: $font_weight_h2;
+	margin-top: $margin_top_h2;
+}
+
+h3 {
+	font-size: $font_size_h3;
+	line-height: $line_height_h3;
+	margin-bottom: $margin_bottom_h3;
+	font-weight: $font_weight_h3;
+}
+
+h4 {
+	font-size: $font_size_h4;
+	line-height: $line_height_h4;
+	margin-bottom: $margin_bottom_h4;
+	font-weight: $font_weight_h4;
+}
+
+h5 {
+	font-size: $font_size_h5;
+	line-height: $line_height_h5;
+	margin-bottom: $margin_bottom;
+	font-weight: $font_weight_h5;
+}
+
+h6 {
+	font-size: $font_size_h6;
+	line-height: $line_height_h6;
+	margin-bottom: $margin_bottom;
+	font-weight: $font_weight_h6;
+}
+
+p {
+	font-size: $font_size_p;
+	line-height: $line_height_p;
+	margin-bottom: $margin_bottom_p;
+	font-weight: $font_weight_p;
+}
+
+img {
+	margin-bottom: $margin_bottom_p;
+}
+
+ul {
+	line-height: $line_height_ul;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+a.button,
+a.button:focus,
+a.button:hover,
+a.button:visited,
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    border: 0;
+    border-left: 25px solid #000;
+    border-right: 25px solid black;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+small {
+	font-size: $font_size_small;
+	text-transform: uppercase;
+	line-height: $line_height;
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+	color: inherit;
+	text-decoration: underline;
+	font-size: inherit;
+/*	font-size: $font_size_a;
+	font-weight: $font_weight_a;*/
+}
+

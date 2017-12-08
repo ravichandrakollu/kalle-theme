@@ -12,13 +12,17 @@
 
 (function($) {
 
-  // Use this variable to set up the common and page specific functions. If you
-  // rename this variable, you will also need to rename the namespace below.
+  function header() {
+    $(".header__mobile-close").on('click',function(e){
+      e.preventDefault();
+      $("#mobile-menu").toggle();
+    });
+  }
   var Sage = {
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+         header();
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
